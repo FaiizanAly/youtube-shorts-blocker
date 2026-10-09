@@ -19,7 +19,7 @@ It hides Shorts sections, Shorts video cards, and the Shorts tab — and if you 
 - 🔒 Works locally in your browser
 - 🧩 No external server required
 
-The extension uses a content script and CSS on YouTube pages. The manifest is configured for YouTube and mobile YouTube pages. fileciteturn0file2L2-L11
+The extension uses a content script and CSS on YouTube pages. The manifest is configured for YouTube and mobile YouTube pages.
 
 ---
 
@@ -27,7 +27,7 @@ The extension uses a content script and CSS on YouTube pages. The manifest is co
 
 ### 1. Hide Shorts
 
-The extension uses CSS to hide different Shorts sections, sidebar entries, video cards, and the Shorts tab. fileciteturn0file0L1-L7 fileciteturn0file0L10-L20 fileciteturn0file0L24-L26
+The extension uses CSS to hide different Shorts sections, sidebar entries, video cards, and the Shorts tab.
 
 ### 2. Redirect Shorts Links
 
@@ -43,9 +43,9 @@ the extension changes it to:
 https://www.youtube.com/watch?v=VIDEO_ID
 ```
 
-So you can watch the same video using YouTube's normal player. ▶️ fileciteturn0file1L1-L5
+So you can watch the same video using YouTube's normal player. ▶️
 
-It also checks YouTube's in-app navigation because YouTube works as a single-page application (SPA). fileciteturn0file1L11-L13
+It also checks YouTube's in-app navigation because YouTube works as a single-page application (SPA).
 
 ---
 
@@ -108,7 +108,8 @@ My-Shorts-Blocker/
 │
 ├── manifest.json    # 🧩 Extension configuration
 ├── content.css      # 🎨 Hides Shorts elements
-└── content.js       # 🔄 Redirects Shorts URLs
+├── content.js       # 🔄 Redirects Shorts URLs
+└── README.md        # 📖 Project documentation
 ```
 
 ---
@@ -128,7 +129,7 @@ There is:
 - ❌ No account required
 - ❌ No need to send your YouTube data anywhere
 
-The extension is injected directly into matching YouTube pages through Chrome's content-script system. fileciteturn0file2L6-L11
+The extension runs directly on matching YouTube pages through Chrome's content-script system.
 
 > 🛡️ **Your YouTube activity stays in your browser.**
 >
@@ -142,8 +143,6 @@ The extension is configured for:
 
 - ▶️ `youtube.com`
 - 📱 `m.youtube.com`
-
-as defined in the extension manifest. fileciteturn0file2L8-L11
 
 ---
 
