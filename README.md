@@ -60,7 +60,7 @@ Download this project from GitHub.
 You can also clone it:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/FaiizanAly/youtube-shorts-blocker
 ```
 
 ### Step 2 — Open Chrome Extensions
